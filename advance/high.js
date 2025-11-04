@@ -29,3 +29,4 @@ console.log("All Company Names:", companyNames);
 
 const companyDurations = companies.map(c => `${c.name}: ${c.end - c.start} years`);
 console.log("Company Durations:", companyDurations);
+

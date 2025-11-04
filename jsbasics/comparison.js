@@ -1,15 +1,15 @@
-/*console.log(null>0);
-console.log(null>=0);
+console.log(null > 0);
+console.log(null >= 0);
 
-console.log(null<0);
+console.log(null < 0);
 
-console.log(null<=0);
-console.log(null==0);
+console.log(null <= 0);
+console.log(null == 0);
 
 console.log(undefined);
 
 // ===check data types
-console.log("2"===2);*/
+console.log("2" === 2);
 
 // 🔹 Primitive Data Types--> call by value
 let stringType = "Hello, JavaScript!"; // String

@@ -9,9 +9,7 @@ const animals = ["Dog", "Cat", "Elephant"];
 animals.forEach((animal, index) => {
     console.log(`${index}: ${animal}`);
 });
-
 const numbers = [10, 20, 30];
-
 numbers.forEach((num, index, arr) => {
     arr[index] = num * 2;
 });

@@ -24,7 +24,6 @@ const adults = ages.filter(age => age >= 18);
 console.log("Adults:", adults);
 
 // forEach - Print company end years
-
 console.log("End Years:");
 companies.forEach(company => console.log(company.end));
 
@@ -42,10 +41,7 @@ console.log("All Company Names:", companyNames);
 
 const companyDurations = companies.map(c => `${c.name}: ${c.end - c.start} years`);
 console.log("Company Durations:", companyDurations);
-
-
 //  reduce - Sum of all ages
-
 const totalAges = ages.reduce((total, age) => total + age, 0);
 console.log("Total of all ages:", totalAges);
 
